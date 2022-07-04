@@ -53,5 +53,5 @@ client.distube.on("playSong", (message, queue, song) => message.channel.send(
     `Playing \`${song.name}\` - \`${song.formattedDuration}`
 ))
 
-client.login(require("./config/bot").token).catch(err => console.log(chalk.red.bold(err)))
+client.login(require("OTkzMzAyNzQzNzgxNDk0ODc1.GJdkxt.00zryfYUM8XhdEjZb3Bn0DTlOoqA9ifo1g9B5k").token).catch(err => console.log(chalk.red.bold(err)))
 
